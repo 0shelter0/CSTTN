@@ -29,6 +29,21 @@ We adopted the same dataset as "Spatio-Temporal Graph Convolutional Networks:
 A Deep Learning Framework for Traffic Forecasting" and "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting". Please refer to [STGCN](https://github.com/VeritasYin/STGCN_IJCAI-18) for
 the description and preprocessing of the dataset [PeMSD7](https://pems.dot.ca.gov) and [DCRNN](https://github.com/liyaguang/DCRNN) for that of the dataset [PeMS-bay](https://github.com/liyaguang/DCRNN).
 
+After preprocessing PEMS-BAY and PeMSD7 datasets, your `data_loader` directory tree should be like this:
+
+```tree
+.
+├── adj_mx_bay.pkl
+├── adj_mx.pkl
+├── data_utils.py
+├── __init__.py
+├── METR-LA
+├── PEMS-BAY
+└── PeMSD7
+    ├── V_228.csv
+    └── W_228.csv
+```
+
 ## Train
 
 ### Install
