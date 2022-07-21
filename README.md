@@ -38,7 +38,13 @@ After preprocessing PEMS-BAY and PeMSD7 datasets, your `data_loader` directory t
 ├── data_utils.py
 ├── __init__.py
 ├── METR-LA
+│   ├── test.npz
+│   ├── train.npz
+│   └── val.npz
 ├── PEMS-BAY
+│   ├── test.npz
+│   ├── train.npz
+│   └── val.npz
 └── PeMSD7
     ├── V_228.csv
     └── W_228.csv
