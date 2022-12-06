@@ -97,7 +97,7 @@ As default run `python main.py`, also run by parsing specified arguments:
 python main.py --n_route=228 --graph='default' --dataset='PeMSD7' --batch_size=32
 ```
 
-<!-- ## Citation
+## Citation
 
 If you find this repository, e.g., the code and the datasets, useful in your research, please cite the following paper:
 
@@ -107,7 +107,7 @@ author={Xu, Mingxing and Dai, Wenrui and Liu, Chunmiao and Gao, Xing and Lin, We
 journal={arXiv preprint arXiv:2001.02908},
 year={2020}
 }
-``` -->
+```
 
 ## Reference
 
