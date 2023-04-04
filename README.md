@@ -97,18 +97,6 @@ As default run `python main.py`, also run by parsing specified arguments:
 python main.py --n_route=228 --graph='default' --dataset='PeMSD7' --batch_size=32
 ```
 
-## Citation
-
-If you find this repository, e.g., the code and the datasets, useful in your research, please cite the following paper:
-
-```
-@article{xu2020spatial,title={Spatial-temporal transformer networks for traffic flow forecasting},
-author={Xu, Mingxing and Dai, Wenrui and Liu, Chunmiao and Gao, Xing and Lin, Weiyao and Qi, Guo-Jun and Xiong, Hongkai},
-journal={arXiv preprint arXiv:2001.02908},
-year={2020}
-}
-```
-
 ## Reference
 
 + [1] Mingxing Xu, Wenrui Dai, Chunmiao Liu, Xing Gao,Weiyao Lin, Guo-Jun Qi, and Hongkai Xiong. Spatial-temporal transformer networks for traffic flow forecasting.arXiv preprint arXiv:2001.02908, 2020
